@@ -42,7 +42,7 @@ const ViewPostBox: FC = () => {
               <img
                 style={{ width: 310, height: 199 }}
                 alt={item.name}
-                src={`https://c74c90dee9e2.ap.ngrok.io${item?.path}`}
+                src={`http://localhost:4200${item?.path}`}
               />
             ) : (
               <Skeleton variant="rectangular" width={310} height={199} />
