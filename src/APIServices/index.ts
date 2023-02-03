@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from "axios";
 
-export const baseURL = "https://c74c90dee9e2.ap.ngrok.io/api";
+export const baseURL = "http://localhost:4200/api";
 const instance: AxiosInstance = axios.create({ baseURL });
 
 export const setAuth = () => {
